@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+
+import ReactEcharts from 'echarts-for-react';
 import { greatCircle, point } from '@turf/turf';
+
+
 
 console.log(greatCircle([0, 0], [100, 10]));
 console.log(point([100, 0]));
@@ -12,8 +17,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.ssddddxxss
+          <p>turf
           </p>
           <a
             className="App-link"
