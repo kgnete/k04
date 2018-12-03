@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactEcharts from 'echarts-for-react';
 
-require('echarts/map/js/china.js');
+require('./paneles.js');
 
 export default class Map extends Component {
   constructor(props) {
@@ -70,7 +70,7 @@ export default class Map extends Component {
         {
           name: 'iphone3',
           type: 'map',
-          mapType: 'china',
+          mapType: 'pk',
           roam: false,
           label: {
             normal: {
@@ -81,46 +81,16 @@ export default class Map extends Component {
             }
           },
           data:[
-            {name: '北京',value: this.randomData() },
-            {name: '天津',value: this.randomData() },
-            {name: '上海',value: this.randomData() },
-            {name: '重庆',value: this.randomData() },
-            {name: '河北',value: this.randomData() },
-            {name: '河南',value: this.randomData() },
-            {name: '云南',value: this.randomData() },
-            {name: '辽宁',value: this.randomData() },
-            {name: '黑龙江',value: this.randomData() },
-            {name: '湖南',value: this.randomData() },
-            {name: '安徽',value: this.randomData() },
-            {name: '山东',value: this.randomData() },
-            {name: '新疆',value: this.randomData() },
-            {name: '江苏',value: this.randomData() },
-            {name: '浙江',value: this.randomData() },
-            {name: '江西',value: this.randomData() },
-            {name: '湖北',value: this.randomData() },
-            {name: '广西',value: this.randomData() },
-            {name: '甘肃',value: this.randomData() },
-            {name: '山西',value: this.randomData() },
-            {name: '内蒙古',value: this.randomData() },
-            {name: '陕西',value: this.randomData() },
-            {name: '吉林',value: this.randomData() },
-            {name: '福建',value: this.randomData() },
-            {name: '贵州',value: this.randomData() },
-            {name: '广东',value: this.randomData() },
-            {name: '青海',value: this.randomData() },
-            {name: '西藏',value: this.randomData() },
-            {name: '四川',value: this.randomData() },
-            {name: '宁夏',value: this.randomData() },
-            {name: '海南',value: this.randomData() },
-            {name: '台湾',value: this.randomData() },
-            {name: '香港',value: this.randomData() },
-            {name: '澳门',value: this.randomData() }
+            {name: 'NO11',value: this.randomData() },
+            {name: 'NO13',value: this.randomData() },
+            {name: 'NO12',value: this.randomData() },
+
           ]
         },
         {
           name: 'iphone4',
           type: 'map',
-          mapType: 'china',
+          mapType: 'pk',
           label: {
             normal: {
               show: true
@@ -130,31 +100,15 @@ export default class Map extends Component {
             }
           },
           data:[
-            {name: '北京',value: this.randomData() },
-            {name: '天津',value: this.randomData() },
-            {name: '上海',value: this.randomData() },
-            {name: '重庆',value: this.randomData() },
-            {name: '河北',value: this.randomData() },
-            {name: '安徽',value: this.randomData() },
-            {name: '新疆',value: this.randomData() },
-            {name: '浙江',value: this.randomData() },
-            {name: '江西',value: this.randomData() },
-            {name: '山西',value: this.randomData() },
-            {name: '内蒙古',value: this.randomData() },
-            {name: '吉林',value: this.randomData() },
-            {name: '福建',value: this.randomData() },
-            {name: '广东',value: this.randomData() },
-            {name: '西藏',value: this.randomData() },
-            {name: '四川',value: this.randomData() },
-            {name: '宁夏',value: this.randomData() },
-            {name: '香港',value: this.randomData() },
-            {name: '澳门',value: this.randomData() }
+            {name: 'NO12',value: this.randomData() },
+            {name: 'NO12',value: this.randomData() },
+
           ]
         },
         {
           name: 'iphone5',
           type: 'map',
-          mapType: 'china',
+          mapType: 'pk',
           label: {
             normal: {
               show: true
@@ -164,13 +118,9 @@ export default class Map extends Component {
             }
           },
           data:[
-            {name: '北京',value: this.randomData() },
+            {name: 'NO11',value: this.randomData() },
             {name: '天津',value: this.randomData() },
-            {name: '上海',value: this.randomData() },
-            {name: '广东',value: this.randomData() },
-            {name: '台湾',value: this.randomData() },
-            {name: '香港',value: this.randomData() },
-            {name: '澳门',value: this.randomData() }
+
           ]
         }
       ]

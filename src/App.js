@@ -5,7 +5,7 @@ import './App.css';
 
 import ReactEcharts from 'echarts-for-react';
 import { greatCircle, point } from '@turf/turf';
-
+import Map from './map.jsx'
 
 
 console.log(greatCircle([0, 0], [100, 10]));
@@ -28,6 +28,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+      <Map/>
       </div>
     );
   }
