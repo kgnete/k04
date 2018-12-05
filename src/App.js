@@ -21,11 +21,11 @@ class App extends Component {
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="http://turfjs.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn turf
           </a>
         </header>
       <Map/>
