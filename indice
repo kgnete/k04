@@ -1,0 +1,56 @@
+COURSE INFORMATION
+Course Overview
+Syllabus
+Schedule
+Competencies
+Info Sheet
+Video Playlist
+ASSIGNMENTS
+EXAMS AND PROJECTS
+
+Exam: Dynamic Modeling
+Lab: Temperature Control
+Exam: Closed Loop Control
+Exam: System Analysis
+
+Project: Process Control
+Final Exam
+DYNAMIC MODELING
+Introduction
+Solve with ODEINT
+Balance Equations
+Linearization
+First Order
+Time Delay
+FOPDT Graphical Fit
+FOPDT Optimization Fit
+Laplace Transforms
+Transfer Functions
+State Space
+Second Order
+SOPDT Graphical Fit
+SOPDT Optimization Fit
+Simulate TF, SS, ODE
+EQUIPMENT DESIGN
+Data Acquisition
+Sensors and Signals
+Valve Design
+CONTROL DESIGN
+Introduction
+P-only
+PI
+PID
+Stability Analysis
+Cascade Control
+Feedforward Control
+OPTIMAL CONTROL
+Optimization Intro
+Linear Programming
+Nonlinear Programming
+Refinery Optimization
+Model Predictive Control
+RELATED COURSES
+Computational Tools
+Dynamics & Control
+Optimization
+Dynamic Optimization
